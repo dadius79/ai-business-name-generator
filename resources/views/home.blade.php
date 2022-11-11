@@ -25,14 +25,14 @@
         @vite(['resources/js/app.js', 'resources/css/app.css'])
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-start py-4 pt-8">
+        <div class="relative flex items-top justify-center min-h-screen sm:items-start py-4 pt-8">
 
             <div class="max-w-6xl w-full mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <a href="/"><img src="{{ asset('storage/tectalic-logo.svg') }}" alt="Tectalic Logo" class="max-w-[250px]" ></a>
                 </div>
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg p-6">
+                <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
                     <h2 class="text-lg font-bold">{{ __('Business Name Generator') }}</h2>
 
                     <p class="py-2">{{ __('This tool is a proof of concept to demonstrate how OpenAI can be used to generate business names and taglines for the specified criteria.') }}</p>
