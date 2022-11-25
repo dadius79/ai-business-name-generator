@@ -38,7 +38,7 @@
                     <p class="py-2">{{ __('This tool is a proof of concept to demonstrate how OpenAI can be used to generate business names and taglines for the specified criteria.') }}</p>
                     <p class="py-2">{!! __('Communication with OpenAI is simplified by using the :linkOpenTectalic OpenAI API Client:linkClose.', ['linkOpen' => '<a class="underline" href="https://tectalic.com/apis/openai">', 'linkClose' => '</a>']) !!}</p>
 
-                    @livewire('name-generator')
+                    @livewire('image-generator')
                 </div>
             </div>
         </div>
